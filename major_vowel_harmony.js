@@ -16,7 +16,7 @@ const hasMajorVowelHarmony = (word) => {
   if (hasVowelWithType(firstSyllable, 'hard')) {
     return !hasVowelWithType(word, 'soft');
   } else {
-    return hasVowelWithType(word, 'soft');
+    return !hasVowelWithType(word, 'hard');
   }
 }
 
