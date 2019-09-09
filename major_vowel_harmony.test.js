@@ -1,4 +1,4 @@
-import hasMajorVowelHarmony from './major_vowel_harmony';
+import hasMajorVowelHarmony from './major_vowel_harmony_new';
 
 it('runs correctly', () => {
   expect(hasMajorVowelHarmony('adım')).toBe(true);
